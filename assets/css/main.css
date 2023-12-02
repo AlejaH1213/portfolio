@@ -22,26 +22,28 @@
 	transform: scale(1.1);
 	
 }
-.tech-stack {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin-top: -30px;
+.project-stack {
+
 }
 
-.project-image:hover{
-	cursor: pointer;
-	opacity: 0.8;
-	content: url("/Users/learnacademy/Downloads/html5up-story/images/tictac.gif");
-}
 
 .project-image {
-	width: 225px;
-	height: 250px;
-	margin-left: 19%;
-	display: block;
+	height: 450px;
+	width: 600px;
+	display:flex;
+}
 
+.project-box {
+	display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.project-title {
+	display: flex;
+	justify-content: center;
 }
 
 .inner-top {
